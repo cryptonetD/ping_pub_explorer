@@ -1,8 +1,8 @@
 
 {
     "chain_name": "Bluezelle",
-    "api": "https://a.client.sentry.net.bluzelle.com:1317",
-    "rpc": "https://a.client.sentry.net.bluzelle.com:26657",
+    "api": "http://bluezelle.cryptonet.pl:1327",
+    "rpc": "http://bluezelle.cryptonet.pl:26667",
     "sdk_version": "v0.45.0",
     "coin_type": "118",
     "min_tx_fee": "8000",
