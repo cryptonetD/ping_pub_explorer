@@ -1,0 +1,44 @@
+
+on:
+  push:
+    branches:    
+      - CryptoNet
+      
+name: Build and Publish Cryptonet Explorer
+jobs:
+  Build:
+    name: Build Explorer
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Cryptonet Branch
+      uses: actions/checkout@v3
+      with:
+        ref: CryptoNet
+    
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+        
+    - name: Yarn Install
+      uses: borales/actions-yarn@v3.0.0
+      with:
+        cmd: --ignore-engines # will run `yarn install` command
+        
+    - name: Yarn Build
+      uses: borales/actions-yarn@v3.0.0
+      with:
+        cmd: build 
+
+    - name: List output files
+      run: ls
+  
+    - name: Deploy Explorer via SFTP
+      uses: Creepios/sftp-action@v1.0.3
+      with:
+        host: ${{ secrets.FTP_SERVER }}
+        port: 22
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        localPath: './dist/'
+        remotePath: './html/'
