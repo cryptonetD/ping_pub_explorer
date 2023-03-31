@@ -1,0 +1,18 @@
+
+{
+    "chain_name": "bluzelle",
+    "api": "https://a.client.sentry.net.bluzelle.com:1317",
+    "rpc": "https://a.client.sentry.net.bluzelle.com:26657",
+    "sdk_version": "v0.45.0",
+    "coin_type": "118",
+    "min_tx_fee": "8000",
+    "assets": [{
+        "base": "ubnt",
+        "symbol": "BNT",
+        "exponent": "6",
+        "coingecko_id": "bluzelle",
+        "logo": "https://avatars.githubusercontent.com/u/23650344?s=200&v=4"
+    }],
+    "addr_prefix": "bluzelle",
+    "logo": "https://avatars.githubusercontent.com/u/23650344?s=200&v=4"
+}
