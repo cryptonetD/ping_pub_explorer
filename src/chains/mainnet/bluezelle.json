@@ -1,6 +1,6 @@
 
 {
-    "chain_name": "bluzelle",
+    "chain_name": "Bluezelle",
     "api": "https://a.client.sentry.net.bluzelle.com:1317",
     "rpc": "https://a.client.sentry.net.bluzelle.com:26657",
     "sdk_version": "v0.45.0",
