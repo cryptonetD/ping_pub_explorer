@@ -341,10 +341,11 @@ export default {
   },
   computed: {
     pingVals() {
-      const cryptonet = this.list.filter(x => x.description.identity === '789E0A435C6E9C75')
-        if (cryptonet.lenght === 0) {
-        cryptonet = this.list.filter(x => x.description.identity === '985AC093BA2448204B6E487C789E0A435C6E9C75') }
-      return cryptonet
+      if (this.list.filter(x => x.description.identity === '789E0A435C6E9C75').lenght === 0) {
+        return this.list.filter(x => x.description.identity === '985AC093BA2448204B6E487C789E0A435C6E9C75') 
+      } else {
+        return this.list.filter(x => x.description.identity === '789E0A435C6E9C75')
+      }
     },
     list() {
       const tab = this.selectedStatus === 'active' ? this.validators : this.inactiveValidators
