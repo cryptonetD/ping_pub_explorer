@@ -1,8 +1,8 @@
 
 {
     "chain_name": "Bluezelle",
-    "api": "http://bluezelle.cryptonet.pl:1327",
-    "rpc": "http://bluezelle.cryptonet.pl:26667",
+    "api": ["http://bluezelle.cryptonet.pl:1327","https://api-bluzelle.nodeist.net"],
+    "rpc": ["http://bluezelle.cryptonet.pl:26667", "https://rpc-bluzelle.nodeist.net"],
     "sdk_version": "v0.45.0",
     "coin_type": "118",
     "min_tx_fee": "8000",
