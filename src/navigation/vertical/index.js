@@ -43,7 +43,7 @@ function processMenu() {
   } else {
     chainMenus.push({
       title: 'Testnet Explorer',
-      href: 'http://testnet.explorer.cryptonet.pl',
+      href: 'https://testnet.explorer.cryptonet.pl',
       icon: 'LifeBuoyIcon',
     })
   }
