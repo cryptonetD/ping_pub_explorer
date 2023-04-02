@@ -37,13 +37,13 @@ function processMenu() {
   if (isTestnet()) {
     chainMenus.push({
       title: 'Mainnet Explorer',
-      href: 'https://ping.pub',
+      href: 'https://explorer.cryptonet.pl',
       icon: 'ChromeIcon',
     })
   } else {
     chainMenus.push({
       title: 'Testnet Explorer',
-      href: 'http://testnet.ping.pub',
+      href: 'http://testnet.explorer.cryptonet.pl',
       icon: 'LifeBuoyIcon',
     })
   }
