@@ -1,8 +1,8 @@
 {
     "chain_name": "lumenxtestnet",
     "coingecko": "",
-    "api": ["https://testnet-api.lumenx.chaintools.tech:443"],
-    "rpc": ["https://testnet-rpc.lumenx.chaintools.tech:443"],
+    "api": ["https://testnet-api.lumenx.chaintools.tech","https://testapi-lumenx.cryptonet.pl"],
+    "rpc": ["https://testnet-rpc.lumenx.chaintools.tech","https://testrpc-lumenx.cryptonet.pl"],
     "snapshot_provider": "",
     "sdk_version": "0.45.5",
     "coin_type": "118",
