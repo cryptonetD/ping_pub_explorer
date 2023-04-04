@@ -1,6 +1,6 @@
 
 {
-    "chain_name": "Bluezelle",
+    "chain_name": "Bluzelle",
     "api": ["https://api-bluezelle.cryptonet.pl:443","https://api-bluzelle.nodeist.net"],
     "rpc": ["https://rpc-bluezelle.cryptonet.pl:443", "https://rpc-bluzelle.nodeist.net"],
     "sdk_version": "v0.45.0",
