@@ -1,5 +1,5 @@
 {
-    "chain_name": "lum-network",
+    "chain_name": "lumnetwork",
     "coingecko": "lum-network",
     "api": ["https://api-lum.cryptonet.pl:443"],
     "rpc": ["https://rpc-lum.cryptonet.pl:443"],
