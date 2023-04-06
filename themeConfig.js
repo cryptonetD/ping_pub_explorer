@@ -9,7 +9,7 @@ export const $themeBreakpoints = {}
 // APP CONFIG
 export const $themeConfig = {
   app: {
-    appName: 'CryptoNet Explorer', // Will update name in navigation menu (Branding)
+    appName: 'Explorer', // Will update name in navigation menu (Branding)
     // eslint-disable-next-line global-require
     appLogoImage: '/CryptoNetLogo.png', // Will update logo in navigation menu (Branding)
   },
