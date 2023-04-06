@@ -8,6 +8,9 @@
     "addr_prefix": "lamb",
     "logo": "/logos/lambda.png",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "key_algos": [
+      "ethsecp256k1"
+    ],    
     "assets": [
       {
         "base": "ulamb",
