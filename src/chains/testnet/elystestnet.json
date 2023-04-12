@@ -1,23 +1,19 @@
 {
-	"chain_id": "elystestnet-1",
-	"chain_name": "elystestnet",
+    "chain_name": "elys",
 	"rpc": ["https://testrpc-elys.cryptonet.pl","https://rpc.testnet.elys.network"],
 	"api": ["https://testapi-elys.cryptonet.pl","https://api.testnet.elys.network"],
-    "coin_type": 118,
-    "min_tx_fee": "5000",
+    "coin_type": "118",
+    "sdk_version": "0.46.7",
     "addr_prefix": "elys",
-    "logo": "",
-    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],    
-    "assets": [{
-        "base": "uelys",
+    "min_tx_fee": "0",
+    "logo": "/logos/elys.png",
+    "assets": [
+      {
         "symbol": "ELYS",
-        "exponent": "6",
+        "base": "uelys",
+        "exponent": 6,
         "coingecko_id": "elys",
-        "logo": ""
-    }],
-	"gasPriceStep": {
-		"low": 0.01,
-		"average": 0.025,
-		"high": 0.03
-	}
-}
+        "logo": "https://avatars.githubusercontent.com/u/121874884"
+      }
+    ]
+  }
