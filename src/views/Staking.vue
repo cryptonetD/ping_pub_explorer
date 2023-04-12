@@ -15,7 +15,7 @@
         responsive="sm"
       >
         <!-- A virtual column -->
-        <b-badge :variant="rankBadge(data)">
+        <b-badge :variant="primary">
               {{ data.index + 1 }}
         </b-badge>
         <!--template #cell(index)="data">
