@@ -1,6 +1,6 @@
 {
-	"chainId": "elystestnet-1",
-	"chainName": "elystestnet",
+	"chain_id": "elystestnet-1",
+	"chain_name": "elystestnet",
 	"rpc": ["https://testrpc-elys.cryptonet.pl","https://rpc.testnet.elys.network"],
 	"api": ["https://testapi-elys.cryptonet.pl","https://api.testnet.elys.network"],
     "coin_type": 118,
