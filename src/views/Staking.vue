@@ -15,12 +15,9 @@
         responsive="sm"
       >
         <!-- A virtual column -->
-        <b-badge :variant="primary">
-              {{ data.index + 1 }}
-        </b-badge>
-        <!--template #cell(index)="data">
+        <template #cell(index)="data">
           {{ data.index + 1 }}
-        </template-->
+        </template>
         <!-- Column: Validator -->
         <template #cell(description)="data">
           <b-media
