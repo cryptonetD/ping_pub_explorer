@@ -1,0 +1,19 @@
+{
+    "chain_name": "ojotestnet",
+	"rpc": ["https://testrpc-ojo.cryptonet.pl"],
+	"api": ["https://testapi-ojo.cryptonet.pl"],
+    "coin_type": "118",
+    "sdk_version": "0.46.7",
+    "addr_prefix": "ojo",
+    "min_tx_fee": "0",
+    "logo": "/logos/ojo.png",
+    "assets": [
+      {
+        "symbol": "OJO",
+        "base": "uojo",
+        "exponent": 6,
+        "coingecko_id": "ojo",
+        "logo": "/logos/ojo.png"
+      }
+    ]
+  }
