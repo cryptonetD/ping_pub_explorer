@@ -4,7 +4,7 @@
     "api": ["https://testnet-api.lumenx.chaintools.tech","https://testapi-lumenx.cryptonet.pl"],
     "rpc": ["https://testnet-rpc.lumenx.chaintools.tech","https://testrpc-lumenx.cryptonet.pl"],
     "snapshot_provider": "",
-    "sdk_version": "0.45.5",
+    "sdk_version": "0.46.7",
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "lumen",
@@ -15,5 +15,10 @@
         "exponent": "6",
         "coingecko_id": "",
         "logo": "/logos/lumen.png"
-    }]
+    }],
+    "gasPriceStep": {
+        "low": 100,
+        "average": 200,
+        "high": 300
+    }    
 }
