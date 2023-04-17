@@ -16,6 +16,11 @@
         "coingecko_id": "",
         "logo": "/logos/lumen.png"
     }],
+    "keplr_price_step": {
+        "low": 100,
+        "average": 200,
+        "high": 300
+      },    
     "gasPriceStep": {
         "low": 100,
         "average": 200,
