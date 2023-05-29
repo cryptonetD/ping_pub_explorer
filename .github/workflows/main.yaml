@@ -12,7 +12,7 @@ jobs:
     - name: Checkout Cryptonet Branch
       uses: actions/checkout@v3
       with:
-        ref: CryptoNet
+        ref: newVersion
     
     - name: Use Node.js 16.x
       uses: actions/setup-node@v3
