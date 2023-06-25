@@ -35,6 +35,7 @@ const changeOpen = (index: Number) => {
 };
 const showDiscord = window.location.host.search('ping.pub') > -1;
 const isTestnet = window.location.host.search('testnet') > -1;
+const isMainnet = window.location.host.search('testnet') < 0;
 </script>
 
 <template>
@@ -226,7 +227,7 @@ const isTestnet = window.location.host.search('testnet') > -1;
 
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">Links</div>
         <a
-          v-if="isTestnet"
+          v-if="isMainnet"
           href="https://testnet.explorer2.cryptonet.pl/"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
@@ -239,7 +240,7 @@ const isTestnet = window.location.host.search('testnet') > -1;
           </div>
         </a>
         <a
-          v-else-if="isTestnet"
+          v-if="isTestnet"
           href="https://explorer2.cryptonet.pl/"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
