@@ -34,6 +34,7 @@ const changeOpen = (index: Number) => {
   }
 };
 const showDiscord = window.location.host.search('ping.pub') > -1;
+const isTestnet = window.location.host.search('testnet') > -1;
 </script>
 
 <template>
@@ -225,6 +226,7 @@ const showDiscord = window.location.host.search('ping.pub') > -1;
 
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">Links</div>
         <a
+          v-if="isTestnet"
           href="https://testnet.explorer2.cryptonet.pl/"
           target="_blank"
           class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
@@ -234,6 +236,19 @@ const showDiscord = window.location.host.search('ping.pub') > -1;
             class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
           >
             TestNets
+          </div>
+        </a>
+        <a
+          v-else-if="isTestnet"
+          href="https://explorer2.cryptonet.pl/"
+          target="_blank"
+          class="py-2 px-4 flex items-center rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
+        >
+          <Icon icon="mdi:web" class="text-xl mr-2" />
+          <div
+            class="text-base capitalize flex-1 text-gray-600 dark:text-gray-200"
+          >
+            MainNets
           </div>
         </a>
         <a
