@@ -1,0 +1,25 @@
+{
+    "chain_name": "Asset Mantle",
+    "coingecko": "assetmantle",
+    "api":[
+      "https://rest.assetmantle.one",
+      "https://rest-assetmantle.ecostake.com"
+    ],
+    "rpc":[
+      "https://rpc.assetmantle.one",
+      "https://rpc-assetmantle.blockpower.capital"
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.9",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "mantle",
+    "logo": "/logos/mntl.png",
+    "assets": [{
+      "base": "umntl",
+      "symbol": "MNTL",
+      "exponent": 6,
+      "coingecko_id": "assetmantle",
+      "logo": "/logos/mntl.png"
+    }]
+  }
