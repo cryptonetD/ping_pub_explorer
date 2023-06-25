@@ -44,9 +44,9 @@ const showDiscord = window.location.host.search('ping.pub') > -1;
       :class="{ block: sidebarShow, 'hidden xl:!block': !sidebarShow }"
     >
       <div class="flex items-center pl-4 py-4 mb-1">
-        <img class="w-10 h-10" src="../../assets/logo.svg" />
+        <img class="w-10 h-10" src="/CryptoNetLogo.png" />
         <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
-          Ping.pub
+          Explorer
         </h1>
         <div
           class="pr-4 cursor-pointer xl:!hidden"
