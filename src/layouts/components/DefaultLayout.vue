@@ -225,7 +225,7 @@ const showDiscord = window.location.host.search('ping.pub') > -1;
 
         <div class="px-4 text-sm pt-2 text-gray-400 pb-2 uppercase">Links</div>
         <a
-          href="https://twitter.com/ping_pub"
+          href="https://twitter.com/cryptonetD"
           target="_blank"
           class="py-2 px-4 flex items-center cursor-pointer rounded-lg hover:bg-gray-100 dark:hover:bg-[#373f59]"
         >
