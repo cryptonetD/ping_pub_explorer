@@ -1,8 +1,8 @@
 {
     "chain_name": "carbon",
     "coingecko": "switcheo",
-    "api": ["https://api.carbon.network","https://api-carbon.cryptonet.pl"],
-    "rpc": ["https://tm-api.carbon.network","https://rpc-carbon.cryptonet.pl"],
+    "api": "https://api.carbon.network",
+    "rpc": ["https://tm-api.carbon.network"],
     "snapshot_provider": "",
     "sdk_version": "0.45.2",
     "coin_type": "118",

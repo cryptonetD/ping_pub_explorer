@@ -1,0 +1,18 @@
+{
+    "chain_name": "konstellation",
+    "api": ["https://api-konstellation.cryptonet.pl:443","https://konstellation-api.polkachu.com:443"],
+    "rpc": ["https://rpc-konstellation.cryptonet.pl:443","https://konstellation-rpc.polkachu.com:443"],
+    "snapshot_provider": "",
+    "sdk_version": "0.42.9",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "darc",
+    "logo": "https://avatars.githubusercontent.com/u/47561122?v=4",
+    "assets": [{
+        "base": "udarc",
+        "symbol": "DARC",
+        "exponent": "6",
+        "coingecko_id": "darcmatter-coin",
+        "logo": "https://avatars.githubusercontent.com/u/47561122?v=4"
+    }]
+}
