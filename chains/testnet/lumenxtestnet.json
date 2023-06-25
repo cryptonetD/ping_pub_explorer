@@ -1,0 +1,29 @@
+{
+    "chain_name": "lumenxtestnet",
+    "coingecko": "",
+    "api": ["https://testnet-api.lumenx.chaintools.tech","https://testapi-lumenx.cryptonet.pl"],
+    "rpc": ["https://testnet-rpc.lumenx.chaintools.tech","https://testrpc-lumenx.cryptonet.pl"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "lumen",
+    "logo": "/logos/lumen.png",
+    "assets": [{
+        "base": "ulumen",
+        "symbol": "LUMEN",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/lumen.png"
+    }],
+    "keplr_price_step": {
+        "low": 100,
+        "average": 200,
+        "high": 300
+      },    
+    "gasPriceStep": {
+        "low": 100,
+        "average": 200,
+        "high": 300
+    }    
+}
