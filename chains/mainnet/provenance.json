@@ -1,8 +1,8 @@
 {
     "chain_name": "provenance",
     "coingecko": "",
-    "api": "https://api.provenance.io",
-    "rpc": ["https://rpc.provenance.io:443", "https://rpc.provenance.io:443"],
+    "api": ["https://api-provenance.cryptonet.pl","https://api.provenance.io"],
+    "rpc": ["https://rpc-provenance.cryptonet.pl", "https://rpc.provenance.io:443"],
     "snapshot_provider": "",
     "sdk_version": "0.46.1",
     "coin_type": "505",
