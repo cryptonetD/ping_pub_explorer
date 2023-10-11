@@ -1,0 +1,19 @@
+{
+    "chain_name": "firmachain",
+    "coingecko": "firmachain",
+    "api": ["https://api.firmachain.chaintools.tech/", "https://firmachain-api.lavenderfive.com/"],
+    "rpc": ["https://rpc.firmachain.chaintools.tech/", "https://firmachain-rpc.lavenderfive.com/"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.9",
+    "coin_type": "7777777",
+    "min_tx_fee": "5000",
+    "addr_prefix": "firma",
+    "logo": "/logos/fct.png",
+    "assets": [{
+        "base": "ufct",
+        "symbol": "FCT",
+        "exponent": "6",
+        "coingecko_id": "firmachain", 
+        "logo": "/logos/fct.png"
+    }]
+  }
