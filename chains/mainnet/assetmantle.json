@@ -2,10 +2,12 @@
     "chain_name": "Asset Mantle",
     "coingecko": "assetmantle",
     "api":[
+      "https://api-assetmantle.cryptonet.pl",      
       "https://rest.assetmantle.one",
       "https://rest-assetmantle.ecostake.com"
     ],
     "rpc":[
+      "https://rpc-assetmantle.cryptonet.pl",      
       "https://rpc.assetmantle.one",
       "https://rpc-assetmantle.blockpower.capital"
     ],

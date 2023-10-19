@@ -1,8 +1,8 @@
 {
     "chain_name": "firmachain",
     "coingecko": "firmachain",
-    "api": ["https://api.firmachain.chaintools.tech/", "https://firmachain-api.lavenderfive.com/"],
-    "rpc": ["https://rpc.firmachain.chaintools.tech/", "https://firmachain-rpc.lavenderfive.com/"],
+    "api": ["https://api-firmachain.cryptonet.pl","https://api.firmachain.chaintools.tech/", "https://firmachain-api.lavenderfive.com/"],
+    "rpc": ["https://rpc-firmachain.cryptonet.pl","https://rpc.firmachain.chaintools.tech/", "https://firmachain-rpc.lavenderfive.com/"],
     "snapshot_provider": "",
     "sdk_version": "0.45.9",
     "coin_type": "7777777",
