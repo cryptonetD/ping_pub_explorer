@@ -6,14 +6,14 @@
     "sdk_version": "0.45.0",
     "addr_prefix": "noble",
     "min_tx_fee": "0",
-    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.png",
+    "logo": "/logos/usdlr.png",
     "assets": [
       {
         "symbol": "STAKE",
         "base": "ustake",
         "exponent": 6,
         "coingecko_id": "",
-        "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/nobletestnet/images/usdlr.png"
+        "logo": "/logos/usdlr.png"
       }
     ]
   }
