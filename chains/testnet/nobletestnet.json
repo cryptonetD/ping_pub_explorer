@@ -1,7 +1,7 @@
 {
     "chain_name": "nobletestnet",
-	"rpc": ["https://testrpc-noble.cryptonet.pl","https://noble-testnet-rpc.polkachu.com"],
-	"api": ["https://testapi-noble.cryptonet.pl","https://noble-testnet-api.polkachu.com"],
+	"rpc": ["https://testrpc-noble.cryptonet.pl","https://rpc.testnet.noble.strange.love/"],
+	"api": ["https://testapi-noble.cryptonet.pl","https://api.testnet.noble.strange.love/"],
     "coin_type": "118",
     "sdk_version": "0.45.0",
     "addr_prefix": "noble",
