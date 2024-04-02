@@ -1,0 +1,19 @@
+{
+    "chain_name": "neutrontestnet",
+	"rpc": ["https://testrpc-neutron.cryptonet.pl","https://neutron-testnet-rpc.polkachu.com"],
+	"api": ["https://testapi-neutron.cryptonet.pl","https://neutron-testnet-api.polkachu.com"],
+    "coin_type": "118",
+    "sdk_version": "0.45.0",
+    "addr_prefix": "neutron",
+    "min_tx_fee": "0",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron-black-logo.png",
+    "assets": [
+      {
+        "symbol": "NTRN",
+        "base": "untrn",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/neutrontestnet/images/neutron-black-logo.png"
+      }
+    ]
+  }
