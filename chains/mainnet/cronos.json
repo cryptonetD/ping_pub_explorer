@@ -1,5 +1,6 @@
 {
     "chain_name": "cronos",
+    "coingecko": "crypto-com-chain",
     "api": ["https://rest.cronos.org"],
     "rpc": ["https://rpc.cronos.org:443"],
     "snapshot_provider": "",
@@ -11,6 +12,7 @@
     "assets": [{
         "base": "basecro",
         "symbol": "CRO",
-        "exponent": "18"
+        "exponent": "18",
+        "coingecko": "crypto-com-chain"        
     }]
 }

@@ -1,6 +1,6 @@
 {
     "chain_name": "omniflix",
-    "coingecko": "",
+    "coingecko": "omniflix-network",
     "api": ["https://api-omniflix.cryptonet.pl","https://api.omniflix.nodestake.top","https://omniflixhub-api.skynetvalidators.com"],
     "rpc": ["https://rpc-omniflix.cryptonet.pl","https://rpc.omniflix.nodestake.top"],
     "snapshot_provider": "",
@@ -13,7 +13,7 @@
         "base": "uflix",
         "symbol": "FLIX",
         "exponent": "6",
-        "coingecko_id": "",
+        "coingecko_id": "omniflix-network",
         "logo": "/logos/omniflix.png"
     }]
 }
