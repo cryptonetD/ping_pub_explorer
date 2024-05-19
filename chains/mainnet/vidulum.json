@@ -1,6 +1,5 @@
 {
     "chain_name": "vidulum",
-    "coingecko": "vidulum",
     "api": ["https://api-vidulum.cryptonet.pl", "https://api-vidulum-ia.cosmosia.notional.ventures"],
     "rpc": ["https://rpc-vidulum.cryptonet.pl", "https://rpc-vidulum-ia.cosmosia.notional.ventures:443"],
     "snapshot_provider": "",
