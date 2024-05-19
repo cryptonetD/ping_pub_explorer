@@ -13,6 +13,6 @@
         "base": "basecro",
         "symbol": "CRO",
         "exponent": "18",
-        "coingecko": "crypto-com-chain"        
+        "coingecko_id": "crypto-com-chain"        
     }]
 }

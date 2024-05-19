@@ -1,7 +1,7 @@
 
 {
     "chain_name": "Bluzelle",
-    "coingecko_id": "bluzelle",
+    "coingecko": "bluzelle",
     "api": ["https://api-bluezelle.cryptonet.pl","https://api-bluzelle.nodeist.net"],
     "rpc": ["https://rpc-bluezelle.cryptonet.pl", "https://rpc-bluzelle.nodeist.net"],
     "sdk_version": "v0.45.0",
