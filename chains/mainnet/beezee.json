@@ -1,7 +1,7 @@
 {
     "chain_name": "Beezee",
     "coingecko": "bzedge",
-    "api": ["https://api-beezee.cryptonet.pl","https://api-bluzelle.nodeist.net"],
+    "api": ["https://api-beezee.cryptonet.pl","https://rest.getbze.com"],
     "rpc": ["https://rpc-beezee.cryptonet.pl", "https://rpc.getbze.com"],
     "sdk_version": "v0.44.3",
     "coin_type": "118",
