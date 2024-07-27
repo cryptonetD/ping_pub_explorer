@@ -1,0 +1,18 @@
+{
+    "chain_name": "Beezee",
+    "coingecko": "beezee",
+    "api": ["https://api-beezee.cryptonet.pl","https://api-bluzelle.nodeist.net"],
+    "rpc": ["https://rpc-beezee.cryptonet.pl", "https://rpc.getbze.com"],
+    "sdk_version": "v0.44.3",
+    "coin_type": "118",
+    "min_tx_fee": "8000",
+    "assets": [{
+        "base": "ubze",
+        "symbol": "BZE",
+        "exponent": "6",
+        "coingecko_id": "beezee",
+        "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.png"
+    }],
+    "addr_prefix": "bze",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/beezee/images/bze.png"
+}
