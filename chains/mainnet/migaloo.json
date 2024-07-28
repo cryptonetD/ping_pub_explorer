@@ -2,11 +2,11 @@
     "chain_name": "Migaloo",
     "coingecko": "white-whale",
     "api": [
-        "https://migaloo-api.polkachu.com",
+        "https://api-migaloo.cryptonet.pl",
         "https://api.migaloo.silknodes.io"
     ],
     "rpc": [
-        "https://migaloo-rpc.polkachu.com/:443",
+        "https://rpc-migaloo.crytponet.pl",
         "https://rpc.migaloo.silknodes.io"
     ],
     "snapshot_provider": "",
